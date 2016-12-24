@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cellular Automata</title>
+        <script type="text/javascript" src="js/automata.js"></script>
+    </head>
+    <body>
+        <h1>Wolfram Cellular Automata</h2>
+        <label>Automaton</label>
+        <input type="number" id="automaton-number"><br/>
+        <button id="automaton-start" onclick="automata.start();">Start</button>
+        <input type="checkbox" id="automaton-random">Random</input>
+        <canvas id="automaton-canvas" width="720" height="720"></canvas>
+    </body>
+    <script>
+        automata.init();
+    </script>
+</html>
+    
